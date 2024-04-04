@@ -108,5 +108,5 @@ python tools/train.py --cfg experiments/ak/kitpose_part/P1S#.yaml
 ```
 Ensemble testing:
 ```shell
-python tools/ensemble_test.py experiments/ak/kitpose_part/mean_ensemble_test.yaml
+python tools/ensemble_test.py --cfg experiments/ak/kitpose_part/mean_ensemble_test.yaml
 ```
